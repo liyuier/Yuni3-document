@@ -1,0 +1,47 @@
+# Node.js 相关
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+.pnpm-debug.log*
+.npm
+.yarn
+
+# 构建输出（VitePress 默认构建到 .vitepress/dist）
+**/*/.vitepress/dist/
+# VitePress 缓存
+**/*/.vitepress/cache/
+
+# 编辑器/IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.DS_Store
+*.sublime-project
+*.sublime-workspace
+
+# 环境变量文件（如果包含敏感信息）
+.env.local
+.env.development.local
+.env.production.local
+.env.test.local
+
+# 日志文件
+logs
+*.log
+
+# 临时文件
+tmp/
+temp/
+
+# 调试文件
+debug.log
+
+# macOS 元数据
+._*
+
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
