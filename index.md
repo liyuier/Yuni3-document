@@ -9,10 +9,10 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/yuni
+      link: /guide/deploy
     - theme: alt
       text: 开发
-      link: /dev/quickstart
+      link: /dev/
   image:
     src: https://s2.loli.net/2026/01/11/uY3SWITi27CqM1e.png
     alt: Logo
