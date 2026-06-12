@@ -9,7 +9,7 @@ hero:
   actions:
     - theme: brand
       text: 快速开始
-      link: /guide/deploy
+      link: /guide/quickstart/deploy-by-docker
     - theme: alt
       text: 开发
       link: /dev/

@@ -33,7 +33,7 @@ function nav(): DefaultTheme.NavItem[] {
     },
     {
       text: '用户文档',
-      link: '/guide/'
+      link: '/guide/quickstart/deploy-by-docker'
     },
     {
       text: '开发文档',
@@ -53,18 +53,35 @@ function sidebarGuide(): DefaultTheme.Sidebar | undefined {
   return {
     '/guide/': [
       {
-        text: '用户文档',
+        text: '快速开始',
         collapsed: false,
         items: [
-          { text: 'Yuni 机器人简介', link: '/guide/yuni' },
-          { text: '使用简介', link: '/guide/' },
+          { text: 'docker 部署', link: '/guide/quickstart/deploy-by-docker' },
+          { text: '源码部署', link: '/guide/quickstart/deploy-by-sourcecode' },
         ]
       },
       {
-        text: '部署文档',
+        text: '插件介绍',
         collapsed: false,
         items: [
-          { text: '部署简介', link: '/guide/deploy' },
+          {
+            text: '插件介绍', link: '/guide/plugins/plugins-guide',
+            items: [
+              { text: '帮助信息', link: '/guide/plugins/help' },
+              { text: '插件管理', link: '/guide/plugins/plugin-manage' },
+              { text: '通用事件处理', link: '/guide/plugins/eventmanage' },
+              { text: '疯狂星期四', link: '/guide/plugins/crazy-thursday' },
+              { text: '今日运势', link: '/guide/plugins/fortune' },
+              { text: '每日早报', link: '/guide/plugins/daily-news' },
+              { text: '今日猪猪', link: '/guide/plugins/pig-today' },
+              { text: '切噜语 / 齁哦语转换', link: '/guide/plugins/chieru' },
+              { text: '涩涩', link: '/guide/plugins/setu' },
+              { text: '反 GBF', link: '/guide/plugins/anti-gbf' },
+              { text: '要我一直 IMAGE 吗', link: '/guide/plugins/yizhi' },
+              { text: '麦麦适配器', link: '/guide/plugins/maimai' },
+              { text: '示例模块', link: '/guide/plugins/example' },
+            ]
+          },
         ]
       },
     ],
