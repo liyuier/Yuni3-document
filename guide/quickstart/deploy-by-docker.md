@@ -33,7 +33,7 @@ docker pull ghcr.io/liyuier/yuni3:latest
 
 ## 准备部署目录
 
-同 [源码部署-准备部署目录](http://yuni.yuier.com/guide/deploy-by-sourcecode.html#%E5%87%86%E5%A4%87%E9%83%A8%E7%BD%B2%E7%9B%AE%E5%BD%95)
+同 [源码部署-准备部署目录](https://yuni.yuier.com/guide/quickstart/deploy-by-sourcecode.html#%E5%87%86%E5%A4%87%E9%83%A8%E7%BD%B2%E7%9B%AE%E5%BD%95)
 
 ## 启动 docker
 
